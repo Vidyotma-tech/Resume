@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+/* body{
+    max-width: 90%;
+    justify-content: center;
+} */
+p{
+    padding-left: 4%;
+    padding-right: 5%;
+}
+h2{
+    color: #da6d55;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+}
+h3{
+    color: #da6d55;
+}
+span{
+    color: black;
+    font-weight: 600;
+    padding-left: 3%;
+}
+a{
+    text-decoration: none;
+}
+table, th,td{
+    border: 2px solid #da6d55;
+    border-collapse: collapse;
+    align:center
+} 
+th,td{
+    text-align: center;
+    padding: 10px;
+}
+
+#container{
+    width: 80%;
+    text-align: justify;
+    margin:0 auto;
+}
+#header{
+    text-align: justify;
+    background-color: #da6d55;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+#header h2{
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;                    /*rem makes independent from parent size.(i.e. h1 size will be 4em) */
+}
+
+#middle{
+    height: 100%;
+    display: flex;
+    margin-top: 1.5%;
+    background-color: #F2EFE5;
+    /* text-align: center; */
+}
+#vertical-line{
+    height: 800px;
+    border: 2px solid #da6d55;
+    margin: 4% 2% auto 2%;
+}
+#left-section{
+    width: 40%;
+    padding-left: 10%;
+}
+#right-section{
+    width: 60%;
+    padding-left: 6%;
+}
+#projects{
+    margin-top: 10%;
+}
+
+
+.profile_img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: left;
+    margin: 0 0 0 2%;
+    border-width: 10%;
+    border-color: white;
+    border-style :solid;
+    text-align: left;
+}
+.contact_details{
+    text-align: right;
+    margin-right: 2%;
+}
+.phone,.email{
+    display: flex;
+    align-items: center;
+}
+.email a{
+    color: #ffffff;
+    padding-left: 3%;
+}
+.links span:hover{
+    color: #da6d55;
+}
+
+#projects li{
+    color: #da6d55;
+}
